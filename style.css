@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #111;
+  color: white;
+}
+
+.profile-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back-btn, .support-btn {
+  background: none;
+  color: white;
+  border: none;
+  font-size: 1em;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.garage {
+  background: #222;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.stats .stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.stat button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+
+.rewards, .transactions {
+  margin-top: 30px;
+}
+
+a {
+  color: #00aaff;
+  text-decoration: none;
+}
